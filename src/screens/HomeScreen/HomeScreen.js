@@ -7,7 +7,7 @@ const HomeScreen = () => {
     <div className="login">
       <div className="login__container">
         <img src={catsImage} alt="Cats!" />
-        <h1>Welcome to Tasker</h1>
+        <h1>Welcome to the Tasker</h1>
         <button type="submit">Login with Gmail</button>
       </div>
     </div>
