@@ -1,0 +1,41 @@
+@import "../../base";
+
+.login {
+  background: $homeScreenBG;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+
+  &__container {
+    background: $homeScreenBG;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    h1 {
+      color: $color-white;
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 0.9rem;
+      color: $color-white;
+      background: transparent;
+      border: 1px solid $color-white;
+      border-width: 1px;
+      cursor: pointer;
+      border-radius: 2rem;
+      font-size: 16px;
+      margin-top: 1.5rem;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
